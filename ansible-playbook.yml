@@ -1,6 +1,6 @@
 ---
 - name: Configure Docker on EC2 Instances
-  hosts: slave_node
+  hosts: jenkins_slave
   become: true
 
   tasks:
